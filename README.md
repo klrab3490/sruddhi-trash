@@ -1,3 +1,5 @@
+# Next.js Project
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -34,3 +36,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## How to Store Secret Keys in .env File
+
+```bash
+NEXT_PUBLIC_FIREBASE_API_KEY="Your Firebase API KEY"
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN="Your Firebase Auth Domain"
+NEXT_PUBLIC_FIREBASE_PROJECT_ID="Your Firebase Project ID"
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET="Your Firebase Storage Bucket"
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID="Your Firebase Messaging Sender ID"
+NEXT_PUBLIC_FIREBASE_APP_ID="Your Firebase App ID"
+
+GOOGLE_CLIENT_ID="Your Google Client ID"
+GOOGLE_CLIENT_SECRET="Your Google Client Secret"
+
+NEXTAUTH_URL="Your Next-Auth URL"
+NEXTAUTH_SECRET="Your Next-Auth Secret" 
+```
+
+
+This Markdown format should render correctly and maintain the proper structure. Ensure that you replace the placeholder values with your actual API keys and secrets.
